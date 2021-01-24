@@ -1,6 +1,6 @@
 GIT
-  remote: git@github.com:emeritus-tech/solidus.git
-  revision: 9864746a3b5d8493f990ef63b28e4989f6534673
+  remote: https://github.com/emeritus-tech/solidus.git
+  revision: e1a7b948b39d49d9fb0a1f3ad9fee35d92b1d44f
   branch: poc
   specs:
     solidus (3.0.0.rc1)
