@@ -1,7 +1,7 @@
 GIT
   remote: https://github.com/emeritus-tech/solidus.git
   revision: 1b201bf4706eb2d9c159e7ccfa91eb1b6a8b483c
-  branch: poc-from-v2.11
+  ref: 1b201bf47
   specs:
     solidus (2.11.4)
       solidus_api (= 2.11.4)
