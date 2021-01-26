@@ -54,7 +54,7 @@ end
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 # gem 'solidus', git: 'https://github.com/emeritus-tech/solidus.git', branch: 'poc-from-v2.11'
-gem 'solidus', git: 'https://github.com/emeritus-tech/solidus.git', ref: '083518de3'
+gem 'solidus', git: 'https://github.com/emeritus-tech/solidus.git', ref: '14e4f8da1'
 
 
 gem 'solidus_auth_devise'
