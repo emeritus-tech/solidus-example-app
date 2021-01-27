@@ -345,6 +345,10 @@ GEM
       paranoia (~> 2.4)
       solidus_core (>= 2.6, < 3)
       solidus_support (~> 0.5)
+    solidus_stripe (4.2.0)
+      activemerchant (>= 1.100)
+      solidus_core (>= 2.3, < 3)
+      solidus_support (~> 0.5)
     solidus_support (0.6.0)
       activesupport (>= 5.2, < 7.0.x)
     spring (2.1.1)
@@ -365,6 +369,7 @@ GEM
     state_machines-activerecord (0.8.0)
       activerecord (>= 5.1)
       state_machines-activemodel (>= 0.8.0)
+    stripe (5.29.0)
     terrapin (0.6.0)
       climate_control (>= 0.0.3, < 1.0)
     thor (1.0.1)
@@ -420,8 +425,10 @@ DEPENDENCIES
   selenium-webdriver
   solidus!
   solidus_auth_devise
+  solidus_stripe (~> 4.2)
   spring
   spring-watcher-listen (~> 2.0.0)
+  stripe (>= 5.29.0)
   turbolinks (~> 5)
   tzinfo-data
   web-console (>= 3.3.0)
