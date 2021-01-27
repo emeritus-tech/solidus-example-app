@@ -55,9 +55,9 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 # gem 'solidus', git: 'https://github.com/emeritus-tech/solidus.git', branch: 'poc-from-v2.11'
 gem 'solidus', git: 'https://github.com/emeritus-tech/solidus.git', ref: '14e4f8da1'
-
-
+gem 'solidus_stripe', '~> 4.2'
 gem 'solidus_auth_devise'
+
 gem 'rails_12factor'
 group :heroku do
   gem 'cloudinary', '~> 1.11'
